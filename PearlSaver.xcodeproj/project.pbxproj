@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5939911FC11A81004D6ACB /* PearlSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5939901FC11A81004D6ACB /* PearlSaverView.h */; };
+		DD5939931FC11A81004D6ACB /* PearlSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5939921FC11A81004D6ACB /* PearlSaverView.m */; };
+		DD59399C1FC11A97004D6ACB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD59399B1FC11A92004D6ACB /* AVFoundation.framework */; };
+		DD59399E1FC11B2C004D6ACB /* Pearl.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DD59399D1FC11B2C004D6ACB /* Pearl.mp4 */; };
+		DDEF20E91FC248E9005FD582 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEF20E61FC248E9005FD582 /* thumbnail@2x.png */; };
+		DDEF20EA1FC248E9005FD582 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEF20E71FC248E9005FD582 /* thumbnail.png */; };
+		DDEF20EB1FC248E9005FD582 /* thumbnail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEF20E81FC248E9005FD582 /* thumbnail@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD59398D1FC11A81004D6ACB /* PearlSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PearlSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5939901FC11A81004D6ACB /* PearlSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PearlSaverView.h; sourceTree = "<group>"; };
+		DD5939921FC11A81004D6ACB /* PearlSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PearlSaverView.m; sourceTree = "<group>"; };
+		DD5939941FC11A82004D6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD59399B1FC11A92004D6ACB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DD59399D1FC11B2C004D6ACB /* Pearl.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pearl.mp4; sourceTree = "<group>"; };
+		DDEF20E61FC248E9005FD582 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@2x.png"; path = "Design/thumbnail@2x.png"; sourceTree = SOURCE_ROOT; };
+		DDEF20E71FC248E9005FD582 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbnail.png; path = Design/thumbnail.png; sourceTree = SOURCE_ROOT; };
+		DDEF20E81FC248E9005FD582 /* thumbnail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbnail@3x.png"; path = "Design/thumbnail@3x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5939891FC11A81004D6ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59399C1FC11A97004D6ACB /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5939831FC11A81004D6ACB = {
+			isa = PBXGroup;
+			children = (
+				DD59398F1FC11A81004D6ACB /* PearlSaver */,
+				DD59398E1FC11A81004D6ACB /* Products */,
+				DD59399A1FC11A91004D6ACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD59398E1FC11A81004D6ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD59398D1FC11A81004D6ACB /* PearlSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD59398F1FC11A81004D6ACB /* PearlSaver */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF20E51FC248E1005FD582 /* Resources */,
+				DD5939901FC11A81004D6ACB /* PearlSaverView.h */,
+				DD5939921FC11A81004D6ACB /* PearlSaverView.m */,
+				DD5939941FC11A82004D6ACB /* Info.plist */,
+			);
+			path = PearlSaver;
+			sourceTree = "<group>";
+		};
+		DD59399A1FC11A91004D6ACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD59399B1FC11A92004D6ACB /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEF20E51FC248E1005FD582 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDEF20E71FC248E9005FD582 /* thumbnail.png */,
+				DDEF20E61FC248E9005FD582 /* thumbnail@2x.png */,
+				DDEF20E81FC248E9005FD582 /* thumbnail@3x.png */,
+				DD59399D1FC11B2C004D6ACB /* Pearl.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DD59398A1FC11A81004D6ACB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5939911FC11A81004D6ACB /* PearlSaverView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD59398C1FC11A81004D6ACB /* PearlSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5939971FC11A82004D6ACB /* Build configuration list for PBXNativeTarget "PearlSaver" */;
+			buildPhases = (
+				DD5939881FC11A81004D6ACB /* Sources */,
+				DD5939891FC11A81004D6ACB /* Frameworks */,
+				DD59398A1FC11A81004D6ACB /* Headers */,
+				DD59398B1FC11A81004D6ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PearlSaver;
+			productName = PearlSaver;
+			productReference = DD59398D1FC11A81004D6ACB /* PearlSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5939841FC11A81004D6ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Guilherme Rambo";
+				TargetAttributes = {
+					DD59398C1FC11A81004D6ACB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD5939871FC11A81004D6ACB /* Build configuration list for PBXProject "PearlSaver" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD5939831FC11A81004D6ACB;
+			productRefGroup = DD59398E1FC11A81004D6ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD59398C1FC11A81004D6ACB /* PearlSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD59398B1FC11A81004D6ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD59399E1FC11B2C004D6ACB /* Pearl.mp4 in Resources */,
+				DDEF20E91FC248E9005FD582 /* thumbnail@2x.png in Resources */,
+				DDEF20EB1FC248E9005FD582 /* thumbnail@3x.png in Resources */,
+				DDEF20EA1FC248E9005FD582 /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5939881FC11A81004D6ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5939931FC11A81004D6ACB /* PearlSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD5939951FC11A82004D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD5939961FC11A82004D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD5939981FC11A82004D6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				INFOPLIST_FILE = PearlSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.PearlSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		DD5939991FC11A82004D6ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8C7439RJLG;
+				INFOPLIST_FILE = PearlSaver/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.PearlSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5939871FC11A81004D6ACB /* Build configuration list for PBXProject "PearlSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5939951FC11A82004D6ACB /* Debug */,
+				DD5939961FC11A82004D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5939971FC11A82004D6ACB /* Build configuration list for PBXNativeTarget "PearlSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5939981FC11A82004D6ACB /* Debug */,
+				DD5939991FC11A82004D6ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5939841FC11A81004D6ACB /* Project object */;
+}
