@@ -288,6 +288,7 @@
 				DEVELOPMENT_TEAM = 8C7439RJLG;
 				INFOPLIST_FILE = PearlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.PearlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -302,6 +303,7 @@
 				DEVELOPMENT_TEAM = 8C7439RJLG;
 				INFOPLIST_FILE = PearlSaver/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.guilhermerambo.PearlSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
