@@ -8,3 +8,5 @@ Face ID detection animation as a screensaver.
 ## Install
 
 Just [get the latest release](https://github.com/insidegui/PearlSaver/releases/latest) and open it.
+
+**Requires macOS 10.12 or later**
